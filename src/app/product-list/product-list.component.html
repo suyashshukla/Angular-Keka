@@ -1,0 +1,19 @@
+<h1>Products</h1>
+
+<div *ngFor = "let product of products; index as productId">
+
+<h2><a [routerLink] = "['/products', productId]">{{product.name}}</a></h2>
+<div>{{product.price}}</div>
+<div>{{product.description}}</div>
+
+</div>
+
+<br>
+<div><a [routerLink]="['/shipping']">Shipping Prices</a></div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

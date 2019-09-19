@@ -1,0 +1,17 @@
+
+<div class="container">
+<div class="side-bar">
+<div *ngFor = "let tab of tabs">
+<app-tabs [data]="tab"></app-tabs>
+</div>
+</div>
+
+<div class="content-pane" *ngFor="let card of cards; index as id">
+
+  <app-cards [card]="card"></app-cards>
+  
+
+</div>
+
+</div>
+

@@ -1,0 +1,31 @@
+img{
+  width : 480px;
+  height : 300px;
+  border-radius: 5px;
+}
+
+.cards{
+  width: 500px;
+  border : rgb(168, 164, 164) solid 2px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #323334;
+  border-radius: 10px;
+  color: white;
+}
+
+h3{
+  color: white;
+  display: inline-block;
+}
+
+div{
+  color: white;
+  display: inline-block;
+}
+
+.buy-now{
+  float: right;
+  margin: 10px;
+  background-color: green;
+}
