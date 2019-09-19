@@ -8,19 +8,19 @@ price : "$500"
 {
 image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/ac.png",
 title : "Voltas AC",
-message : "1 Tonne AC is looking for its new owner",
+message : "1 Tonne AC is looking for its new owner. Get this to your home and enjoy this summer season in na soothin environment.",
 price : "$50"
 },
 {
 image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/bike.png",
 title : "Yamaha Bike",
-message : "100 cc Bike within the free service period is on sale.",
+message : "100 cc Bike within the free service period is on sale. Tap to buy and get ready to run on the road",
 price : "$500"
 },
 {
 image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/car.png",
 title : "Maruti Car",
-message : "Car with 5 seating capacity can be bought",
+message : "Car with 5 seating capacity can be bought at a nominal price wihtout much interference by brokers",
 price : "$500"
 },
 {
@@ -38,7 +38,7 @@ price : "$500"
 {
 image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/guitar.png",
 title : "Stringify Guitar",
-message : "3 Month old almirah is on sale with fully furnished outdoors and looks",
+message : "A fully fledged guitar is open to be bought by interested customers. Ping to know more.",
 price : "$500"
 },
 {

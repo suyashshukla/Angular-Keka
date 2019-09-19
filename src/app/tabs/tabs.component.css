@@ -5,6 +5,8 @@ img{
 }
 
 .tabs{
+  padding-top:15px;
+  cursor: pointer;
   display : flex;
   justify-content: center;
   align-items: center;
@@ -18,4 +20,9 @@ h4{
 
 div{
   display: block;
+}
+
+.tabs:hover{
+  background-color: grey;
+  color: black
 }

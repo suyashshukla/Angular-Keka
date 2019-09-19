@@ -14,7 +14,10 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { MainScreenComponent } from './main-screen/main-screen.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TabService } from './tab.service';
-import { CardsComponent } from './cards/cards.component'
+import { CardsComponent } from './cards/cards.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { DataComponent } from './data/data.component';
+import { NavigationComponent } from './navigation/navigation.component'
 
 @NgModule({
   imports: [
@@ -25,7 +28,8 @@ import { CardsComponent } from './cards/cards.component'
       { path: '', component: MainScreenComponent },
       {path : 'products/:productId', component : DetailsComponent},
       {path: 'cart', component : CartComponent},
-      {path : 'shipping',component : ShippingComponent}
+      {path : 'shipping',component : ShippingComponent},
+      {path : 'data', component : DataComponent}
     ])
   ],
   declarations: [
@@ -37,7 +41,10 @@ import { CardsComponent } from './cards/cards.component'
     ShippingComponent,
     MainScreenComponent,
     TabsComponent,
-    CardsComponent
+    CardsComponent,
+    SideBarComponent,
+    DataComponent,
+    NavigationComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService, TabService]

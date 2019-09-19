@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import {TabsComponent} from '../tabs/tabs.component';
 
-import {tabs} from '../tabs';
 
 import {cards} from '../cards';
 
@@ -13,7 +12,6 @@ import {cards} from '../cards';
 })
 export class MainScreenComponent implements OnInit {
 
-  tabs = tabs;
   cards = cards;
 
   constructor() { }

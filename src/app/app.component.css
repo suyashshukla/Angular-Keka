@@ -6,11 +6,29 @@ a{
   padding: 10px;
 }
 
-:host(){
-  margin : 0;
-  padding : 0;
+.container{
+  display: inline-flex;
+  flex-direction: row;
+  height: inherit;
+}
+
+.side-bar{
+display: inline-flex;
+justify-content: flex-start;
+flex-direction: column;
+}
+
+.route{
+  flex-grow: 1;
   height: 100%;
 }
+
+
+
+
+
+
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
