@@ -9,26 +9,28 @@ img{
   border : rgb(168, 164, 164) solid 2px;
   margin: 5px;
   padding: 10px;
-  background-color: #323334;
+  background-color: white;
   border-radius: 10px;
   color: white;
 }
 
 .cards:hover{
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 h3{
-  color: white;
+  color:black;
   display: inline-block;
 }
 
 div{
-  color: white;
+  color: grey;
 }
 
 .buy-now{
   float: right;
   margin: 10px;
+  border-radius: 25px;
+  padding: 10px 25px;
   background-color: green;
 }

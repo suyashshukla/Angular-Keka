@@ -19,9 +19,8 @@ tabs = tabs;
   ngOnInit() {
   }
 
-  navigate(){
-    window.alert("hello");
-    console.log("done");
+  navigate(tab){
+    this.route.navigate(['/'+tab.text.toString().toLowerCase()]);
   }
 
 }

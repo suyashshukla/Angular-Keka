@@ -17,7 +17,10 @@ import { TabService } from './tab.service';
 import { CardsComponent } from './cards/cards.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { DataComponent } from './data/data.component';
-import { NavigationComponent } from './navigation/navigation.component'
+import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ClassifiedsComponent } from './classifieds/classifieds.component';
+import { CameraComponent } from './camera/camera.component';
 
 @NgModule({
   imports: [
@@ -29,7 +32,11 @@ import { NavigationComponent } from './navigation/navigation.component'
       {path : 'products/:productId', component : DetailsComponent},
       {path: 'cart', component : CartComponent},
       {path : 'shipping',component : ShippingComponent},
-      {path : 'data', component : DataComponent}
+      {path : 'inbox', component : DataComponent},
+      {path : 'classifieds', component : MainScreenComponent},
+      {path : 'my classifieds', component : ProfileComponent},
+      {path : 'pictures', component : CameraComponent},
+      {path : 'admin',component : HomeComponent}
     ])
   ],
   declarations: [
@@ -44,7 +51,10 @@ import { NavigationComponent } from './navigation/navigation.component'
     CardsComponent,
     SideBarComponent,
     DataComponent,
-    NavigationComponent
+    HomeComponent,
+    ProfileComponent,
+    ClassifiedsComponent,
+    CameraComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService, TabService]

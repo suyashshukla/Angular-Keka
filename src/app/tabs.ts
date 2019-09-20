@@ -5,18 +5,18 @@ export const tabs = [
 },
 {
   image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/a2.png",
-  text : "Profile"
+  text : "My Classifieds"
 },
 {
   image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/a3.png",
-  text : "Data"
+  text : "Inbox"
 },
 {
   image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/a4.png",
-  text : "Home"
+  text : "Admin"
 },
 {
   image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/a5.png",
-  text : "Camera"
+  text : "Pictures"
 }
 ];
