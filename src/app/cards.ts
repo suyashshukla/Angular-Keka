@@ -58,7 +58,19 @@ image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/
 title : "Wooden Sofa",
 message : "3 Month old almirah is on sale with fully furnished outdoors and looks",
 price : "$653"
-}
+},
+{
+image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/home.png",
+title : "2 BHK Home",
+message : "3 Month old almirah is on sale with fully furnished outdoors and looks",
+price : "$653"
+},
+{
+image : "https://raw.githubusercontent.com/suyashshukla/Sherlock/master/Angular/camera.png",
+title : "Nikon Camera",
+message : "3 Month old almirah is on sale with fully furnished outdoors and looks",
+price : "$653"
+},
 
 
 ];
