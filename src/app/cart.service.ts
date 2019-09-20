@@ -29,5 +29,9 @@ getShippingPrices(){
   return this.http.get('/assets/shipping.json');
 }
 
+getData(){
+  return this.http.get("https://www.googleapis.com/blogger/v3/blogs/1207806558163186871?key=AIzaSyD8oO2Jpe2kIopyhniJCVBKSNQHXWNbaWE");
+}
+
 
 }

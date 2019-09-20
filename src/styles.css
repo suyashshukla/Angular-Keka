@@ -88,7 +88,6 @@ label {
   border: none;
 }
 
-
 .button:hover, button:hover {
   opacity: 0.8;
   font-weight: normal;
@@ -122,11 +121,6 @@ app-top-bar {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-}
-
-
-app-root{
-height: 100%;
 }
 
 app-top-bar h1 {

@@ -9,7 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { CartService } from './cart.service';
 import { DetailsComponent } from './details/details.component';
 import { CartComponent } from './cart/cart.component';
-import { HttpClientModule} from '@angular/common/http';
+import { HttpClientModule, HttpClientJsonpModule} from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { MainScreenComponent } from './main-screen/main-screen.component';
 import { TabsComponent } from './tabs/tabs.component';
@@ -26,6 +26,7 @@ import { CameraComponent } from './camera/camera.component';
   imports: [
     BrowserModule,
     HttpClientModule,
+    HttpClientJsonpModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: MainScreenComponent },
@@ -33,7 +34,7 @@ import { CameraComponent } from './camera/camera.component';
       {path: 'cart', component : CartComponent},
       {path : 'shipping',component : ShippingComponent},
       {path : 'inbox', component : DataComponent},
-      {path : 'classifieds', component : MainScreenComponent},
+      {path : 'classifieds', component : ClassifiedsComponent},
       {path : 'my classifieds', component : ProfileComponent},
       {path : 'pictures', component : CameraComponent},
       {path : 'admin',component : HomeComponent}
