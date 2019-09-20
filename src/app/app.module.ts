@@ -34,7 +34,7 @@ import { CameraComponent } from './camera/camera.component';
       {path: 'cart', component : CartComponent},
       {path : 'shipping',component : ShippingComponent},
       {path : 'inbox', component : DataComponent},
-      {path : 'classifieds', component : ClassifiedsComponent},
+      {path : 'classifieds', component : MainScreenComponent},
       {path : 'my classifieds', component : ProfileComponent},
       {path : 'pictures', component : CameraComponent},
       {path : 'admin',component : HomeComponent}
